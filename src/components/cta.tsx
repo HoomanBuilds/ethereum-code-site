@@ -35,16 +35,16 @@ export function CTA() {
         </p>
 
         {/* Terminal */}
-        <div className="mt-10 w-full max-w-lg">
+        <div className="mt-10 w-full max-w-2xl">
           <div className="overflow-hidden rounded-xl border border-white/[0.10] bg-[#0a0a0a]/80 shadow-2xl shadow-black/40 backdrop-blur-xl">
-            <div className="flex items-center justify-between px-5 py-3.5">
-              <code className="font-mono text-[13px] text-white/75">
+            <div className="flex items-center gap-3 px-4 py-2.5">
+              <code className="font-mono text-[12px] text-white/75 whitespace-nowrap flex-1 truncate">
                 <span className="text-[#7aa2ff]">$ </span>
                 {installCmd}
               </code>
               <button
                 onClick={copy}
-                className="ml-3 rounded-md border border-white/[0.08] bg-white/[0.03] px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-white/40 transition hover:border-white/20 hover:text-white"
+                className="flex-shrink-0 rounded-md border border-white/[0.08] bg-white/[0.03] px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-white/40 transition hover:border-white/20 hover:text-white"
               >
                 {copied ? "copied" : "copy"}
               </button>

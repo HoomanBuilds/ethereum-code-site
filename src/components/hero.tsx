@@ -81,8 +81,8 @@ export function Hero() {
               <div className="w-[46px]" />
             </div>
             {/* Command */}
-            <div className="flex items-center justify-between gap-3 px-5 py-4">
-              <code className="overflow-x-auto whitespace-nowrap font-mono text-[13px] text-white/80">
+            <div className="flex items-center gap-3 px-5 py-3">
+              <code className="font-mono text-[12px] text-white/80 break-all leading-relaxed flex-1">
                 <span className="text-[#7aa2ff]">$ </span>
                 {installCmd}
               </code>
@@ -104,6 +104,7 @@ export function Hero() {
             </span>
             <div className="flex items-center gap-1.5">
               <Pill>Claude Code</Pill>
+              <Pill>Codex</Pill>
               <Pill>eth cli</Pill>
             </div>
           </div>
