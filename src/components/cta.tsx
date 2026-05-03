@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function CTA() {
   const [copied, setCopied] = useState(false);
-  const installCmd = "curl -fsSL https://ethereum-code/setup.sh | bash";
+  const installCmd = "curl -fsSL https://ethereum-code.vercel.app/setup.sh | bash";
 
   const copy = async () => {
     try {
@@ -54,7 +54,7 @@ export function CTA() {
 
         {/* GitHub link */}
         <a
-          href="https://github.com/shreyaspatil03/ethereum-code"
+          href="https://github.com/HoomanBuilds/ethereum-code"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex h-10 items-center gap-2.5 rounded-full border border-white/[0.08] bg-white/[0.03] px-5 font-mono text-[12px] text-white/50 backdrop-blur-sm transition hover:border-white/15 hover:bg-white/[0.06] hover:text-white/80"

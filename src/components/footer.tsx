@@ -9,7 +9,7 @@ export function Footer() {
               ethereum code
             </p>
             <p className="mt-2 font-mono text-[11px] text-white/20">
-              2025 · MIT License
+              2026 · MIT License
             </p>
           </div>
 

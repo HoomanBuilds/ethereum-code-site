@@ -14,7 +14,7 @@ const Silk = dynamic(() => import("@/components/Silk"), { ssr: false });
 
 export function Hero() {
   const [copied, setCopied] = useState(false);
-  const installCmd = "curl -fsSL https://ethereum-code/setup.sh | bash";
+  const installCmd = "curl -fsSL https://ethereum-code.vercel.app/setup.sh | bash";
 
   const copy = async () => {
     try {
@@ -50,7 +50,7 @@ export function Hero() {
         <div className="animate-fade-in-up mb-8 inline-flex h-7 items-center gap-2.5 rounded-full border border-white/[0.08] bg-white/[0.02] px-3.5 backdrop-blur-sm">
           <span className="h-1.5 w-1.5 rounded-full bg-[#7aa2ff] shadow-[0_0_6px_rgba(122,162,255,0.5)]" />
           <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/40">
-            v0.3 · 31 skills · 26 commands
+            v0.3.3 · 31 skills · 26 commands
           </span>
         </div>
 
