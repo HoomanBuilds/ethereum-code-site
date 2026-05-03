@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ethereum.code Site
 
-## Getting Started
+The landing page for **ethereum.code** — an AI-native CLI for Ethereum founders that ships production dApps in one command.
 
-First, run the development server:
+## What it does
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+5 engines, 31 skills, zero guesses:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Idea** — validate, research, architect with a step-by-step build plan
+- **Build** — production Solidity + Next.js frontend with real RPC integration
+- **Audit** — independent security review with 500+ checklist items
+- **Ship** — deploy to any EVM chain, publish to Vercel/IPFS
+- **Raise** — pitch decks, grant apps, investor materials from verified codebase
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Dark, text-heavy, full-width layout inspired by solana.new. Key sections:
 
-## Learn More
+1. **Hero** — Silk shader background, install command with macOS window chrome, platform pills
+2. **Protocols ticker** — infinite marquee of Ethereum ecosystem icons
+3. **5 engines** — horizontal pipeline cards showing the founder journey
+4. **Grounding contract** — bento grid of the 31 bundled skills
+5. **Command list** — all 26 commands organized by category
+6. **Ideas showcase** — scrollable list of buildable dApp concepts with active skill panel
+7. **CTA** — dotted pattern background, install command, GitHub link
 
-To learn more about Next.js, take a look at the following resources:
+## Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js 16, Tailwind 4, shadcn/ui, Silk (React Bits), @web3icons/react
