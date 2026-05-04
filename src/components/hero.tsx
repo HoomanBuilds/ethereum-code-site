@@ -114,10 +114,11 @@ export function Hero() {
               deploys to
             </span>
             <div className="flex items-center gap-3">
+              <NetworkEthereum className="h-5 w-5 text-white/40 transition hover:text-white/70" />
+              <img src="/0G-Logo.png" alt="0G" className="h-3.5 w-4 rounded-sm" />
               <NetworkBase className="h-5 w-5 text-white/40 transition hover:text-white/70" />
               <NetworkArbitrumOne className="h-5 w-5 text-white/40 transition hover:text-white/70" />
               <NetworkOptimism className="h-5 w-5 text-white/40 transition hover:text-white/70" />
-              <NetworkEthereum className="h-5 w-5 text-white/40 transition hover:text-white/70" />
             </div>
           </div>
         </div>
