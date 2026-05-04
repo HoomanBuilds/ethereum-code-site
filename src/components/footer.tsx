@@ -19,7 +19,7 @@ export function Footer() {
           {/* Right: cards */}
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
-              href="https://github.com/HoomanBuilds/ethereum-code"
+              href="https://ethskills.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col gap-3 rounded-xl border border-white/[0.06] bg-[#0a0a0a] px-6 py-5 transition hover:border-white/[0.12] hover:bg-[#0c0c0c]"
