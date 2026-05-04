@@ -7,9 +7,10 @@ export function Nav() {
     >
       <Link
         href="/"
-        className="font-pixel text-[14px] tracking-wide text-white"
+        className="flex items-center gap-2.5 font-pixel text-[20px] tracking-wide text-white"
       >
-        ethereum code
+        <img src="/logo.png" alt="Logo" className="h-7 w-7" />
+        ETHEREUM.CODE
       </Link>
 
       <div className="hidden items-center gap-7 md:flex">

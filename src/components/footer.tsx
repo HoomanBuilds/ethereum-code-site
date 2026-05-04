@@ -5,9 +5,12 @@ export function Footer() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           {/* Left: brand */}
           <div>
-            <p className="font-pixel text-[14px] text-white/80">
-              ethereum code
-            </p>
+            <div className="flex items-center gap-2">
+              <img src="/logo.png" alt="Logo" className="h-5 w-5" />
+              <p className="font-pixel text-[14px] text-white/80">
+                ETHEREUM.CODE
+              </p>
+            </div>
             <p className="mt-2 font-mono text-[11px] text-white/20">
               2026 · MIT License
             </p>
